@@ -1,101 +1,152 @@
 MacDylan Holdings Website
 
-WEB DEVELOPMENT 
+WEB DEVELOPMENT (WEDE5020w)
+Andile Kundayi
+ST10487104
 
-WEDE5020w 
+Project Overview
 
-Andile Kundayi 
-
-ST10487104 
-
-PROJECT OVERVIEW:
 MacDylan Holdings is a dynamic logistics and transport solutions company dedicated to providing reliable, efficient, and customer-focused services across South Africa and the wider region. Founded with a vision to bridge gaps in transportation and distribution, the company has steadily grown from a small local operator into a trusted name in the industry.
 
-The project aims to establish a strong digital and corporate presence for MacDylan Holdings through the development of a professional website, company profile, and branding material. The website will serve as the primary communication platform for clients, partners, and stakeholders, showcasing the company’s history, services, mission, vision, and values.
+The project aims to establish a strong digital and corporate presence for MacDylan Holdings through the development of a professional website, company profile, and branding material. The website will serve as the primary communication platform for clients, partners, and stakeholders, showcasing the company’s history, services, mission, vision, and values (Chaffey, 2015).
 
 This initiative is designed to:
 
-Highlight the company’s identity by presenting a clear “Who We Are” section, backed by an authentic history and a strong narrative.
+Highlight the company’s identity by presenting a clear “Who We Are” section, backed by an authentic history and strong narrative.
 
 Communicate core values and principles, including reliability, professionalism, and customer satisfaction.
 
 Showcase services in transport, logistics, and related solutions, positioning MacDylan Holdings as a trusted partner in the industry.
 
-Build credibility with well-structured content, professional imagery, and academic-style referencing where applicable.
+Build credibility with well-structured content, professional imagery, and academic-style referencing where applicable (Kotler & Keller, 2016).
 
-Enhance visibility and growth opportunities by creating a strong online footprint that supports client acquisition, tenders, and partnerships.
+Enhance visibility and growth opportunities by creating a strong online footprint that supports client acquisition, tenders, and partnerships (Laudon & Traver, 2021).
 
 Ultimately, this project provides MacDylan Holdings with the tools and presence required to compete in today’s digital-first business landscape, aligning the company’s operations with its long-term mission of delivering excellence in logistics.
 
-WEBSITE GOALS AND OBJECTIVES :
-Primary goal                                                                                         
+Website Goals and Objectives
+Primary Goals
 
-To generate qualified leads by showcasing MacDylan Holdings’ services, reliability, and regional reach, converting website visitors into paying clients. 
+Generate qualified leads by showcasing MacDylan Holdings’ services, reliability, and regional reach, converting website visitors into paying clients.
 
-To increase the website traffic and the number of potential customers 
+Increase website traffic and potential customer base.
 
-To build brand credibility  
+Build brand credibility through a professional online presence.
 
-To introduce a simpler to use and more aesthetically pleasing UI 
+Introduce a simple, user-friendly, and aesthetically pleasing interface (Garrett, 2011).
 
-PROPOSED WEBSITE FEATURES AND   FUNCTIONALITY :
+Specific Goals
 
+Create a professional and trustworthy online presence.
 
-Homepage  
+Provide clients with clear and accessible information about services.
 
-Overview of the company and services. 
+Showcase the company’s mission, vision, and values.
 
-About us 
+Enable smooth communication between the company and its clients.
 
-Basic info on the company and its values. 
+Objectives
 
-Services 
+Design a responsive and user-friendly website.
 
-Short list of what the company offers. 
- 
-Contact page 
+Build a simple four-page structure (Homepage, About Us, Services, Quotation, Contact).
 
-Short list of what the company offers. 
+Use consistent branding, colour schemes, and typography.
 
-TIMELINE AND SEGNIFICANT:
+Implement basic SEO and accessibility principles (Fishkin & Høgenhaven, 2013).
 
-Week 1: Planning and research: Complete the objectives, features, and specifications for the website. 
+Proposed Website Features and Functionality
+Homepage
 
-Week 2: Design: Select colors, typefaces, and general aesthetics while creating wireframes. 
+Overview of the company and services.
 
-Week 3: Creating the HTML code for the structure of the website and adding CSS for the look of the website colour palates  
+About Us
 
-Week 4: Adding the javascript 
+Company history, mission, vision, and values.
 
-Week 5: Testing: Verify loading speed and mobile responsiveness, and address any problems. 
+Services
 
-Week 6: Launch: Connect the domain, upload the website to hosting, and go live. 
+Logistics solutions, transport services, and future service offerings.
 
-PART 1 DETAILS :
+Request a Quotation
 
-part one is just the basic html code for the base of the website it will be plain it wil contain the content , but will not do nothing much other than than 
+Interactive form where users can request service quotes.
 
+Contact Page
 
-SITE MAP :
+Contact form, email, phone details, and physical address.
 
-the website will feature 5 page 
+Timeline and Milestones
 
-Homepage , About US , Service , Request a Quatation ,and Contact
+Week 1 – Planning and Research: Finalise objectives, features, and specifications.
 
-REFERENCES:
+Week 2 – Design: Select colour palette, typography, and create wireframes.
 
-Smith, J. (2023) Web Development for Small Businesses. Cape Town: TechPress. 
+Week 3 – Development: Build website structure using HTML and apply CSS styling.
 
-Brown, L. and Taylor, R. (2022) ‘Effective Website Design and UX for SMEs’, Journal of Digital Business, 14(2), pp. 45–59. 
+Week 4 – Interactivity: Add JavaScript for enhanced functionality.
 
-MacDylan Holdings (2025) Company Profile and Services Overview. [Internal document]. 
+Week 5 – Testing: Check loading speed, mobile responsiveness, and fix issues.
 
-World Wide Web Consortium (W3C) (2024) HTML, CSS, and JavaScript Standards. Available at: https://www.w3.org/standards/ (Accessed: 14 August 2025). 
+Week 6 – Launch: Connect domain, upload to hosting, and go live (Krug, 2014).
 
-Axxess Hosting (2025) ‘S Package Features and Pricing’. Available at: https://www.axxess.co.za/hosting/s-package (Accessed: 14 August 2025). 
+Part 1 Details
 
-Nielsen, J. (2023) Designing User Experiences for Modern Websites. London: UXPress. 
+Part one will consist of the basic HTML code for the structure of the website. It will contain static content only, without styling or interactivity.
 
+Site Map
+
+The website will consist of five main pages:
+
+Homepage
+
+Introduction to MacDylan Holdings
+
+Quick links to Services and Contact
+
+About Us
+
+Company history
+
+Mission statement
+
+Vision
+
+Values
+
+Services
+
+Logistics solutions
+
+Transport services
+
+Additional offerings (future expansion)
+
+Request a Quotation
+
+Online quotation form
+
+Contact
+
+Contact form
+
+Email and phone details
+
+Physical address/location
+
+References
+
+Chaffey, D. (2015) Digital Business and E-Commerce Management. 6th edn. Harlow: Pearson Education.
+
+Fishkin, R. and Høgenhaven, T. (2013) Inbound Marketing and SEO: Insights from the Moz Blog. New Jersey: Wiley.
+
+Garrett, J.J. (2011) The Elements of User Experience: User-Centered Design for the Web and Beyond. 2nd edn. Berkeley: New Riders.
+
+Kotler, P. and Keller, K. (2016) Marketing Management. 15th edn. Harlow: Pearson Education.
+
+Krug, S. (2014) Don’t Make Me Think, Revisited: A Common Sense Approach to Web Usability. 3rd edn. Berkeley: New Riders.
+
+Laudon, K.C. and Traver, C.G. (2021) E-commerce: Business, Technology, Society. 16th edn. Harlow: Pearson Education.
   
 
 
