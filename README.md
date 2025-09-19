@@ -150,8 +150,9 @@ Laudon, K.C. and Traver, C.G. (2021) E-commerce: Business, Technology, Society. 
 
 
   PART 2
+  
 
-
+(Different browser screen sizes)
   
 ![image alt](https://github.com/kunstaytrue/newstuff/blob/9e53ddbf3611cd1d267ba6779d31bb8f8dbaf96c/Screenshot%202025-09-19%20232512.png
 )
@@ -159,6 +160,9 @@ Laudon, K.C. and Traver, C.G. (2021) E-commerce: Business, Technology, Society. 
 ![image alt](https://github.com/kunstaytrue/newstuff/blob/69dc60ff162fa4df466f53fb51e9848396d0f326/Screenshot%202025-09-19%20233116.png)
 ![image alt](https://github.com/kunstaytrue/newstuff/blob/a6034c62e5cf8cdbb6a07a9091aed8d238a75311/Screenshot%202025-09-19%20233300.png)
 
+(Notible changes)
+
+The service page , and the about page is different to how i had initailly presented it in the wireframe
  
 
 
