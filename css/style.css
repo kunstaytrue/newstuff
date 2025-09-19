@@ -65,3 +65,22 @@ a:hover {
   display: flex;
   gap: 1rem;
 }
+
+.nav-links a {
+  color: white;
+  padding: 0.8rem 1rem;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.4rem;
+  transition: background 0.3s ease;
+}
+
+.nav-links a:hover {
+  background-color: #0077cc;
+}
+
+.hamburger {
+  display: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
