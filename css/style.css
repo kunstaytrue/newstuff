@@ -84,3 +84,21 @@ a:hover {
   font-size: 2rem;
   cursor: pointer;
 }
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  background-color: #004080; 
+  padding: 1rem;
+}
+
+.flex-container > div {
+  background-color: #0077cc; 
+  color: white;
+  flex: 1 1 300px;
+  margin: 10px;
+  padding: 1rem;
+  text-align: left;
+  font-size: 1.2rem;
+  border-radius: 25px;
+}
