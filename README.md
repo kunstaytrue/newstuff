@@ -147,10 +147,44 @@ Kotler, P. and Keller, K. (2016) Marketing Management. 15th edn. Harlow: Pearson
 Krug, S. (2014) Don’t Make Me Think, Revisited: A Common Sense Approach to Web Usability. 3rd edn. Berkeley: New Riders.
 
 Laudon, K.C. and Traver, C.G. (2021) E-commerce: Business, Technology, Society. 16th edn. Harlow: Pearson Education.
+
+
+  PART 2
   
 
+(Different browser screen sizes)
+  
+![image alt]()
+![image alt]()
+![image alt]()
+![image alt]()
 
+(Notible changes)
 
+The service page , and the about page is different to how i had initailly presented it in the wireframe
+
+Part 2 references
+
+W3Schools, 2024. CSS Flexbox. [online] Available at: https://www.w3schools.com/css/css3_flexbox.asp
+ [Accessed 19 September 2025].
+
+W3Schools, 2024. CSS Media Queries. [online] Available at: https://www.w3schools.com/css/css3_mediaqueries_ex.asp
+ [Accessed 19 September 2025].
+
+W3Schools, 2024. CSS Colors – RGBA and HSLA. [online] Available at: https://www.w3schools.com/css/css_colors_rgb.asp
+ [Accessed 19 September 2025].
+
+W3Schools, 2024. CSS Navigation Bar. [online] Available at: https://www.w3schools.com/css/css_navbar.asp
+ [Accessed 19 September 2025].
+
+freeCodeCamp, 2024. Responsive Web Design Basics. [online] Available at: https://www.freecodecamp.org/news/what-is-responsive-web-design/
+ [Accessed 19 September 2025].
+
+freeCodeCamp, 2024. CSS Flexbox – A Complete Guide. [online] Available at: https://www.freecodecamp.org/news/css-flexbox-tutorial-with-cheatsheet/
+ [Accessed 19 September 2025].
+
+freeCodeCamp, 2024. CSS Color Values Explained. [online] Available at: https://www.freecodecamp.org/news/css-colors-rgb-hsl-hex/
+ [Accessed 19 September 2025].
  
 
 
