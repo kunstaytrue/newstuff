@@ -147,7 +147,12 @@ Kotler, P. and Keller, K. (2016) Marketing Management. 15th edn. Harlow: Pearson
 Krug, S. (2014) Don’t Make Me Think, Revisited: A Common Sense Approach to Web Usability. 3rd edn. Berkeley: New Riders.
 
 Laudon, K.C. and Traver, C.G. (2021) E-commerce: Business, Technology, Society. 16th edn. Harlow: Pearson Education.
-  
+
+
+  PART 2
+
+
+  ![image alt]()
 
 
 
