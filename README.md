@@ -154,15 +154,37 @@ Laudon, K.C. and Traver, C.G. (2021) E-commerce: Business, Technology, Society. 
 
 (Different browser screen sizes)
   
-![image alt](https://github.com/kunstaytrue/newstuff/blob/9e53ddbf3611cd1d267ba6779d31bb8f8dbaf96c/Screenshot%202025-09-19%20232512.png
-)
-![image alt](https://github.com/kunstaytrue/newstuff/blob/efe6c26eb3f36a7c984d7cd2eaf11b95826fc79b/Screenshot%202025-09-19%20233007.png)
-![image alt](https://github.com/kunstaytrue/newstuff/blob/69dc60ff162fa4df466f53fb51e9848396d0f326/Screenshot%202025-09-19%20233116.png)
-![image alt](https://github.com/kunstaytrue/newstuff/blob/a6034c62e5cf8cdbb6a07a9091aed8d238a75311/Screenshot%202025-09-19%20233300.png)
+![image alt]()
+![image alt]()
+![image alt]()
+![image alt]()
 
 (Notible changes)
 
 The service page , and the about page is different to how i had initailly presented it in the wireframe
+
+Part 2 references
+
+W3Schools, 2024. CSS Flexbox. [online] Available at: https://www.w3schools.com/css/css3_flexbox.asp
+ [Accessed 19 September 2025].
+
+W3Schools, 2024. CSS Media Queries. [online] Available at: https://www.w3schools.com/css/css3_mediaqueries_ex.asp
+ [Accessed 19 September 2025].
+
+W3Schools, 2024. CSS Colors – RGBA and HSLA. [online] Available at: https://www.w3schools.com/css/css_colors_rgb.asp
+ [Accessed 19 September 2025].
+
+W3Schools, 2024. CSS Navigation Bar. [online] Available at: https://www.w3schools.com/css/css_navbar.asp
+ [Accessed 19 September 2025].
+
+freeCodeCamp, 2024. Responsive Web Design Basics. [online] Available at: https://www.freecodecamp.org/news/what-is-responsive-web-design/
+ [Accessed 19 September 2025].
+
+freeCodeCamp, 2024. CSS Flexbox – A Complete Guide. [online] Available at: https://www.freecodecamp.org/news/css-flexbox-tutorial-with-cheatsheet/
+ [Accessed 19 September 2025].
+
+freeCodeCamp, 2024. CSS Color Values Explained. [online] Available at: https://www.freecodecamp.org/news/css-colors-rgb-hsl-hex/
+ [Accessed 19 September 2025].
  
 
 
