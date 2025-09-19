@@ -179,6 +179,7 @@ a:hover {
 .container:hover .overlay .text {
   opacity: 1;
 }
+
 textarea,input[type=text],input[type=tel],input[type=email],input[type=date],input[type=button],input[type=submit],input[type=reset] {
   width: 100%;
   padding: 12px;
@@ -225,6 +226,15 @@ textarea,input[type=text],input[type=tel],input[type=email],input[type=date],inp
   border-radius: 8px;
   box-shadow: 0 2px 6px #0000000D;
 }
+.footer {
+  padding: 20px;
+  text-align: center;
+  background-color: #004080;
+  color: white;
+  border-radius: 8px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.4rem;
+}
 @media (max-width: 768px) {
   .nav-links {
     display: none;
@@ -265,5 +275,8 @@ textarea,input[type=text],input[type=tel],input[type=email],input[type=date],inp
 
   .navbar a {
     padding: 10px;
+  }
+.text {
+    font-size: 1.2rem;
   }
 }
