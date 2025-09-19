@@ -116,3 +116,66 @@ a:hover {
   object-fit: contain;
   border-radius: 8px;
 }
+.containere {
+  display: inline-grid;
+  column-gap: 50px;
+  grid-template-columns: auto, auto;
+  background-color: #f4f4f4;
+}
+
+.containere > div {
+  background-color: #f4f4f4;
+  border: 1px solid #004080;
+  font-size: 1.8rem;
+  text-align: left;
+  padding: 1rem;
+  border-radius: 8px;
+}
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  overflow: hidden;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #0077CCF2;
+  width: 0;
+  height: 100%;
+  transition: width .5s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+.container:hover .overlay {
+  width: 100%;
+  visibility: visible;
+}
+
+.text {
+  color: white;
+  font-size: 1.4rem;
+  text-align: left;
+  line-height: 1.5;
+  opacity: 0;
+  transition: opacity .3s ease;
+}
+
+.container:hover .overlay .text {
+  opacity: 1;
+}
