@@ -36,3 +36,12 @@ h5 {
 h6 { 
     font-size: 1.4rem; 
 }
+a {
+  color: #0077cc; /* accent blue */
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #004080;
+}
