@@ -152,9 +152,12 @@ Laudon, K.C. and Traver, C.G. (2021) E-commerce: Business, Technology, Society. 
   PART 2
 
 
-  ![image alt]()
-
-
+  
+![image alt](https://github.com/kunstaytrue/newstuff/blob/9e53ddbf3611cd1d267ba6779d31bb8f8dbaf96c/Screenshot%202025-09-19%20232512.png
+)
+![image alt]()
+![image alt]()
+![image alt]()
 
  
 
