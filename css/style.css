@@ -45,3 +45,23 @@ a {
 a:hover {
   color: #004080;
 }
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #004080;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0.5rem 1rem;
+  color: white;
+  position: relative;
+}
+
+.navbar .logo img {
+  height: 50px;
+  object-fit: contain;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1rem;
+}
