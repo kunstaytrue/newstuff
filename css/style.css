@@ -179,3 +179,28 @@ a:hover {
 .container:hover .overlay .text {
   opacity: 1;
 }
+textarea,input[type=text],input[type=tel],input[type=email],input[type=date],input[type=button],input[type=submit],input[type=reset] {
+  width: 100%;
+  padding: 12px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 1.6rem;
+  resize: none;
+}
+
+.btncontainer .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #0077cc;
+  color: white;
+  font-size: 1.6rem;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
