@@ -161,7 +161,7 @@ Laudon, K.C. and Traver, C.G. (2021) E-commerce: Business, Technology, Society. 
 
 (Notible changes)
 
-The service page , and the about page is different to how i had initailly presented it in the wireframe
+The service page , contact and the about page is different to how i had initailly presented it in the wireframe
 
 Part 2 references
 
