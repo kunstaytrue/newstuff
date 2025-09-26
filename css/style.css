@@ -223,60 +223,66 @@ a:hover {
 }
 
 form {
-  background: #F8F0E6;
+  max-width: 600px;
+  margin: 2rem auto;
   padding: 2rem;
+  background: #fff;
+  border: 1px solid #ddd;
   border-radius: 12px;
   box-shadow: 0 6px 20px rgba(0,0,0,0.08);
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
 }
 
 form label {
   font-weight: 600;
-  color: #333;
-  margin-bottom: 0.4rem;
-  display: block;
+  color: #0a2e5c;
+  margin-bottom: 0.2rem; 
+  font-size: 1.6rem; 
 }
 
 form input,
 form textarea {
   width: 100%;
-  padding: 0.9rem 1.2rem;
-  font-size: 1.6rem;
+  padding: 0.7rem; 
+  font-size: 1.6rem;      
   border: 1.8px solid #ccc;
   border-radius: 8px;
   transition: border-color 0.3s ease, box-shadow 0.3s ease;
-}
-
-form input:focus,
-form textarea:focus {
-  border-color: #0077cc;
-  outline: none;
-  box-shadow: 0 0 0 3px rgba(0,119,204,0.15);
+  margin-bottom: 0.6rem;  
 }
 
 form textarea {
   resize: vertical;
-  min-height: 120px;
+  min-height: 100px; 
+}
+
+form input:focus,
+form textarea:focus {
+  border-color: #ff9800;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(255,152,0,0.15);
 }
 
 form input[type="submit"] {
-  background: #0077cc;
+  background: #ff9800;
   color: white;
-  font-size: 1.8rem;
+  font-size: 1.8rem;  
   font-weight: 600;
   border: none;
   border-radius: 8px;
-  padding: 1rem;
+  padding: 0.7rem;
   cursor: pointer;
+  margin-top: 0.8rem; 
   transition: background 0.3s ease, transform 0.2s ease;
 }
 
 form input[type="submit"]:hover {
-  background: #004080;
+  background: #e68900;
   transform: translateY(-2px);
 }
+
+
 
 .services-section {
   max-width: 1200px;
