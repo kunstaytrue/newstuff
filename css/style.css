@@ -118,49 +118,73 @@ a:hover {
   border-radius: 8px;
 }
 .containere {
-  display: inline-grid;
-  column-gap: 50px;
-  grid-template-columns: auto, auto;
+  display: grid;
+  gap: 50px 100px;
+  grid-template-columns: auto auto;
   background-color: #f4f4f4;
+  padding: 10px;
 }
 
 .containere > div {
-  background-color: #f4f4f4;
-  border: 1px solid #004080;
-  font-size: 1.8rem;
-  text-align: left;
-  padding: 1rem;
   border-radius: 8px;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  background-color: #F8F0E6;
+  border: none;
+  position: relative;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
 }
 .container {
   position: relative;
   width: 100%;
-  max-width: 500px;
-  overflow: hidden;
+  height: 100%;
 }
 
 .image {
+   width: 100%;
+  height: 100%;
+  object-fit: cover;
   display: block;
-  width: 100%;
-  height: auto;
+  border-radius: 8px;
 }
 
 .overlay {
   position: absolute;
-  bottom: 0;
+  top: 0;
   left: 0;
   right: 0;
-  background-color: #0077CCF2;
-  width: 0;
+  bottom: 0;
+  width: 100%;
   height: 100%;
-  transition: width .5s ease;
+  background-color: #F8F0E6;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 20px;
+  padding: 1rem;          
   box-sizing: border-box;
-  overflow: hidden;
-  visibility: hidden;
+  opacity: 0;
+  transition: opacity .4s ease;
+  overflow: hidden;      
+  border-radius: 8px;
+}
+
+.container:hover .overlay {
+ opacity: 1;
+}
+
+.text {
+  color: black;
+  font-size: clamp(1.2rem, 2vw, 1.6rem); 
+  text-align: center;
+  line-height: 1.4;
+  word-wrap: break-word;  
+  overflow-wrap: break-word;
+  max-width: 90%;         
+}
+.heading{
+  text-align: center;
+
 }
 
 .container:hover .overlay {
@@ -169,10 +193,10 @@ a:hover {
 }
 
 .text {
-  color: white;
+  color: black;
   font-size: clamp(1.6rem, 2.2vw, 1.8rem);
-   line-height: 1.6;
   text-align: left;
+ line-height: 1.6;
   opacity: 0;
   transition: opacity .3s ease;
 }
@@ -180,6 +204,7 @@ a:hover {
 .container:hover .overlay .text {
   opacity: 1;
 }
+
 
 textarea,input[type=text],input[type=tel],input[type=email],input[type=date],input[type=button],input[type=submit],input[type=reset] {
   width: 100%;
