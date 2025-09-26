@@ -154,7 +154,7 @@ Laudon, K.C. and Traver, C.G. (2021) E-commerce: Business, Technology, Society. 
 
 (Different browser screen sizes)
   
-![image alt](https://github.com/kunstaytrue/newstuff/blob/c432207e24125ebeff81cbcd2758a9404aa5db56/src%201.png)
+![image alt](https://github.com/kunstaytrue/newstuff/blob/192370f0f04df85d458ba40e25fe19afd5d13ba8/home%20page%20screen%20shot%201.png)
 ![image alt](https://github.com/kunstaytrue/newstuff/blob/c1cc753af506c3b2571e24d23b7b3fd858b18585/src2.png)
 ![image alt](https://github.com/kunstaytrue/newstuff/blob/1b5e298d071f18f0de1f04667d7d0e7b6653ab40/src3.png)
 ![image alt]()
