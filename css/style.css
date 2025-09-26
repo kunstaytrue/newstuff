@@ -319,23 +319,26 @@ form input[type="submit"]:hover {
   flex-wrap: wrap;
   justify-content: center;
   align-items: flex-start;
-  gap: 2rem;
-  padding: 2rem;
-  max-width: 1200px;
+  gap: 1.5rem; 
+  padding: 1.5rem;
+  max-width: 100%; 
   margin: auto;
   box-shadow: 0 3px 10px rgba(0,0,0,0.08);
   background-color: #F8F0E6;
+  box-sizing: border-box;
+  overflow-x: hidden; 
 }
 
 .cntct > div {
-  flex: 1 1 350px; 
-  min-width: 280px; 
+  flex: 1 1 320px; 
+  min-width: 0; 
   background: white;
-  padding: 2rem;
+  padding: 1.5rem;
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  word-wrap: break-word;
+  box-sizing: border-box;
 }
-
 
 .cntct ul li {
   font-size: 1.6rem;
@@ -343,19 +346,21 @@ form input[type="submit"]:hover {
   display: flex;
   align-items: center;
   gap: 0.5rem;
-   box-shadow: 0 2px 6px rgba(0,0,0,0.05)
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  word-wrap: break-word;
 }
-
 
 .map iframe {
   width: 100%;
-  min-height: 280px;
-  height: 350px;
+  min-height: 250px;
+  height: 300px;
   border: none;
   border-radius: 10px;
   box-shadow: 0 3px 10px rgba(0,0,0,0.08);
   object-fit: cover;
+  max-width: 100%; 
 }
+
 @media (max-width: 768px) {
   .nav-links {
     display: none;
