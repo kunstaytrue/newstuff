@@ -19,6 +19,14 @@
   <meta property="og:description" content="Phone +27 82 263 2641 or email thembaz531@gmail.com for logistics enquiries." />
   <meta property="og:image" content="https://kunstaytrue.github.io/img/logo.png" />
   <meta property="og:url" content="https://kunstaytrue.github.io/contact.html" />
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script>
+    (function() {
+      emailjs.init("i2HBadIRLfXNvtbLg");
+    })();
+  </script>
+
+  <script src="javascript/javascript.js" defer></script>
 </head>
 
 <body>
@@ -65,7 +73,7 @@
           <input type="email" name="email" placeholder="Your Email">
           <input type="text" name="address" placeholder="Address">
           <textarea name="message" placeholder="Your Message"></textarea>
-          <button type="submit">Send</button>
+          <button type="submit"onclick="sendMail()">Send</button>
         </form>
       </div>
 

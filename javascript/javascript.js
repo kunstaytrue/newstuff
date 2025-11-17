@@ -107,6 +107,25 @@ document.addEventListener("DOMContentLoaded", function () {
   const quoteForm = document.getElementById("quoteForm");
   const quoteResponse = document.getElementById("quoteResponse");
 
+
+  function sendQuoteEmail(data) {
+    return emailjs.send(
+      "service_e4d0hp8",
+      "template_w790si9",
+      data,
+      "i2HBadIRLfXNvtbLg"
+    );
+  }
+
+  function sendContactEmail(data) {
+    return emailjs.send(
+      "service_e4d0hp8",
+      "template_b2lhoxa",
+      data,
+      "i2HBadIRLfXNvtbLg"
+    );
+  }
+
   if (quoteForm) {
     quoteForm.addEventListener("submit", function (e) {
       e.preventDefault();
@@ -119,14 +138,12 @@ document.addEventListener("DOMContentLoaded", function () {
       const distance = parseFloat(document.getElementById("distance").value.trim()) || 0;
       const cargoType = document.getElementById("cargoType").value;
 
-
       if (!name || !email || !phone || !pickup || !dropoff || distance <= 0) {
         quoteResponse.innerHTML = `
           <div class="quote-summary error">
             <h3>Form Error</h3>
             <p>Please fill in all fields correctly before submitting.</p>
-          </div>
-        `;
+          </div>`;
         quoteResponse.style.display = "block";
         quoteResponse.scrollIntoView({ behavior: "smooth" });
         return;
@@ -138,13 +155,11 @@ document.addEventListener("DOMContentLoaded", function () {
           <div class="quote-summary error">
             <h3>Invalid Email</h3>
             <p>Please enter a valid email address.</p>
-          </div>
-        `;
+          </div>`;
         quoteResponse.style.display = "block";
         quoteResponse.scrollIntoView({ behavior: "smooth" });
         return;
       }
-
 
       const baseRate = 100;
       const ratePerKm = 10;
@@ -157,7 +172,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       const estimatedPrice = (baseRate + (distance * ratePerKm)) * (cargoMultiplier[cargoType] || 1);
 
-      const messageHTML = `
+      quoteResponse.innerHTML = `
         <div class="quote-summary success">
           <h3>Quotation Summary</h3>
           <p><strong>Name:</strong> ${name}</p>
@@ -168,16 +183,62 @@ document.addEventListener("DOMContentLoaded", function () {
           <p><strong>Distance:</strong> ${distance} km</p>
           <p><strong>Cargo Type:</strong> ${cargoType.charAt(0).toUpperCase() + cargoType.slice(1)}</p>
           <p><strong>Estimated Quote:</strong> R${estimatedPrice.toFixed(2)}</p>
-          <p class="thank-you">Thank you for requesting a quote. Our team will contact you shortly!</p>
+          <p class="thank-you">Thank you! We are sending your request...</p>
         </div>
       `;
-
-      quoteResponse.innerHTML = messageHTML;
       quoteResponse.style.display = "block";
       quoteResponse.scrollIntoView({ behavior: "smooth" });
+
+      /* SEND EMAIL IN BACKGROUND */
+      const templateParams = {
+        name,
+        email,
+        phone,
+        pickup,
+        dropoff,
+        distance,
+        cargoType,
+        estimatedPrice
+      };
+
+      sendQuoteEmail(templateParams)
+        .then(() => {
+          quoteResponse.innerHTML += `
+            <div class="email-status success">📩 Email sent successfully!</div>`;
+        })
+        .catch(() => {
+          quoteResponse.innerHTML += `
+            <div class="email-status error">❌ Failed to send email. Please try again.</div>`;
+        });
+
       quoteForm.reset();
     });
   }
 
-});
 
+  const contactForm = document.getElementById("contactForm");
+
+  if (contactForm) {
+    contactForm.addEventListener("submit", function (e) {
+      e.preventDefault();
+
+      const data = {
+        company: contactForm.company.value.trim(),
+        phone: contactForm.phone.value.trim(),
+        email: contactForm.email.value.trim(),
+        address: contactForm.address.value.trim(),
+        message: contactForm.message.value.trim()
+      };
+
+      sendContactEmail(data)
+        .then(() => {
+          alert("Message sent successfully!");
+          contactForm.reset();
+        })
+        .catch(() => {
+          alert("Failed to send message. Please try again.");
+        });
+    });
+  }
+
+});

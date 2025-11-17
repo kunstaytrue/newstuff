@@ -20,6 +20,13 @@
   <meta property="og:description" content="Get a free quote for logistics, freight transport, or warehousing services." />
   <meta property="og:image" content="https://kunstaytrue.github.io/newstuff/img/truck1.jpg" />
   <meta property="og:url" content="https://kunstaytrue.github.io/newstuff/request_a_quote.html" />
+  <script>
+    (function() {
+      emailjs.init("i2HBadIRLfXNvtbLg");
+    })();
+  </script>
+
+  <script src="javascript/javascript.js" defer></script>
 </head>
 
 <body>
@@ -115,7 +122,7 @@
             <option value="perishable">Perishable Goods</option>
           </select>
 
-          <button type="submit">Get Quote</button>
+          <button type="submit"onclick="sendMail()">Get Quote</button>
         </form>
 
         <div id="quoteResponse" class="response" aria-live="polite"></div>
