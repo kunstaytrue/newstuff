@@ -1,76 +1,117 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Services | MacDylan Holdings</title>
-    <link rel="stylesheet" href="css/style.css">
-    </head>
-    <body>
-        <main>
-           <nav class="navbar">
-  <div class="logo">
-    <a href="index.html"><img src="img/logo.png" alt="MacDylan Logo"></a>
-  </div>
-  <div class="nav-links" id="navLinks">
-    <a href="index.html">Home</a>
-    <a href="about.html">About Us</a>
-    <a href="services.html">Services</a>
-    <a href="request_a_quote.html">Request a Quote</a>
-    <a href="contact.html">Contact</a>
-  </div>
-  <div class="hamburger" id="hamburger">
-    &#9776;
-  </div>
-</nav>
-<main class="services-section">
-    <h1 class="section-title">SERVICES</h1>
-
-            <div class="service">
-      <h2>Long-Distance Haulage</h2>
-      <p>Point-to-point transport between provinces for palletised goods, packaged materials, and non-hazardous commodities. Includes route planning, secure loading, and status updates.</p>
-    </div>
-            <div class="service">
-      <h2>Local Distribution (Last-Mile)</h2>
-      <p>Same-day/next-day deliveries within your city or region. Ideal for store replenishment, e-commerce orders, and B2B drops. Flexible scheduling and proof of delivery provided.</p>
-    </div>
-
-    <div class="service">
-      <h2>Agricultural Transport</h2>
-      <p>Careful movement of fresh produce, inputs, and farm supplies from gates to markets and processors. Focus on timing, hygiene, and product integrity.</p>
-    </div>
-         <div class="service">
-      <h2>Custom Logistics Solutions</h2>
-      <p>Contracted runs, dedicated lanes, and tailored delivery schedules aligned to your production or harvest calendar. We collaborate on SLAs, KPIs, and reporting that fit your workflow.</p>
-    </div>
-
-    <div class="guarantees">
-      <h2>Service Guarantees</h2>
-      <ul>
-        <li>On-time targets with proactive communication if conditions change</li>
-        <li>Clear, itemised quotes before we move</li>
-        <li>Single point of contact for coordination and updates</li>
-      </ul>
-    </div>
-             <div class="cta">
-      <h2>Ready to move something?</h2>
-      <p>Use our <a href="request_a_quote.html">Request a Quote</a> form with pickup/drop-off points, cargo type, and preferred dates.</p>
-    </div>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 
- </section>
-        <div class="footer">
-        <section>
-            <h2>Call to Action</h2>
-            <p>
-                Need a <a href="request_a_quote.html">quote today?</a> 
-                Request a Quote and our team will respond promptly.
-            </p>
-        </section>
+  <title>Services | MacDylan Holdings — Freight, Distribution & Agricultural Transport</title>
+  <meta name="description" content="Our services: long-distance haulage, local distribution, agricultural transport, custom logistics solutions and service guarantees." />
+  <meta name="keywords" content="freight transport, long-distance haulage, last-mile delivery, agricultural transport, logistics services South Africa" />
+  <link rel="canonical" href="https://yourdomain.co.za/services.html" />
+  <meta http-equiv="X-Content-Type-Options" content="nosniff">
+
+ 
+  <link rel="preload" href="css/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="css/style.css"></noscript>
+
+ 
+  <meta property="og:title" content="MacDylan Holdings — Logistics Services" />
+  <meta property="og:description" content="Long-distance haulage, local distribution, agricultural transport and custom logistics solutions across South Africa." />
+  <meta property="og:image" content="https://yourdomain.co.za/img/warehouse.jpg" />
+  <meta property="og:url" content="https://yourdomain.co.za/services.html" />
+</head>
+
+<body>
+  
+  <nav class="navbar" role="navigation" aria-label="Main navigation">
+    <div class="logo">
+      <a href="index.html">
+        <img src="img/logo.png" alt="MacDylan Holdings company logo">
+      </a>
+    </div>
+
+    <div class="nav-links" id="navLinks">
+      
+      <div class="nav-search">
+        <input type="text" id="searchField" placeholder="Search or type A-Z / Z-A" 
+               oninput="handleSearchOrSort()" class="nav-search-input" aria-label="Search site content" />
+        <span class="search-icon">&#128269;</span>
+      </div>
+
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="services.html" aria-current="page">Services</a>
+      <a href="request_a_quote.html">Request a Quote</a>
+      <a href="contact.html">Contact</a>
+    </div>
+
+    <div class="hamburger" id="hamburger" aria-hidden="true">&#9776;</div>
+  </nav>
+
+
+  <main class="services-section" aria-labelledby="services-heading">
+    <h1 id="services-heading" class="section-title">SERVICES</h1>
+
+ 
+    <div class="accordion" id="contentContainer" role="region" aria-live="polite">
+
+      
+      <div class="accordion-item">
+        <button class="accordion-header" aria-expanded="false">Long-Distance Haulage</button>
+        <div class="accordion-content" role="region" aria-hidden="true">
+          <p>Point-to-point transport between provinces for palletised goods, packaged materials, and non-hazardous commodities. Includes route planning, secure loading, and status updates.</p>
         </div>
-    </main>
-</body>
-</html>
+      </div>
 
-    </body>
+    
+      <div class="accordion-item">
+        <button class="accordion-header" aria-expanded="false">Local Distribution (Last-Mile)</button>
+        <div class="accordion-content" role="region" aria-hidden="true">
+          <p>Same-day/next-day deliveries within your city or region. Ideal for store replenishment, e-commerce orders, and B2B drops. Flexible scheduling and proof of delivery provided.</p>
+        </div>
+      </div>
+
+      
+      <div class="accordion-item">
+        <button class="accordion-header" aria-expanded="false">Agricultural Transport</button>
+        <div class="accordion-content" role="region" aria-hidden="true">
+          <p>Careful movement of fresh produce, inputs, and farm supplies from gates to markets and processors. Focus on timing, hygiene, and product integrity.</p>
+        </div>
+      </div>
+
+      
+      <div class="accordion-item">
+        <button class="accordion-header" aria-expanded="false">Custom Logistics Solutions</button>
+        <div class="accordion-content" role="region" aria-hidden="true">
+          <p>Contracted runs, dedicated lanes, and tailored delivery schedules aligned to your production or harvest calendar. We collaborate on SLAs, KPIs, and reporting that fit your workflow.</p>
+        </div>
+      </div>
+
+     
+      <div class="accordion-item">
+        <button class="accordion-header" aria-expanded="false">Service Guarantees</button>
+        <div class="accordion-content" role="region" aria-hidden="true">
+          <ul>
+            <li>On-time targets with proactive communication if conditions change</li>
+            <li>Clear, itemised quotes before we move</li>
+            <li>Single point of contact for coordination and updates</li>
+          </ul>
+        </div>
+      </div>
+
+      
+      <div class="accordion-item">
+        <button class="accordion-header" aria-expanded="false">Ready to move something?</button>
+        <div class="accordion-content" role="region" aria-hidden="true">
+          <p>Use our <a href="request_a_quote.html">Request a Quote</a> form with pickup/drop-off points, cargo type, and preferred dates.</p>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+
+  <script src="javascript/javascript.js" defer></script>
+</body>
 </html>
