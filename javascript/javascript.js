@@ -1,6 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () { 
 
-
   const searchField = document.getElementById("searchField");
   const contentContainer = document.getElementById("contentContainer");
 
@@ -36,7 +35,6 @@ document.addEventListener("DOMContentLoaded", function () {
       return order === "a-z" ? titleA.localeCompare(titleB) : titleB.localeCompare(titleA);
     });
 
- 
     items.forEach(item => contentContainer.appendChild(item));
   }
 
@@ -48,6 +46,7 @@ document.addEventListener("DOMContentLoaded", function () {
       navLinks.classList.toggle("active");
     });
   }
+
   const accordionHeaders = document.querySelectorAll(".accordion-header");
 
   accordionHeaders.forEach(header => {
@@ -61,6 +60,7 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     });
   });
+
   let slideIndex = 1;
 
   window.openModal = function () {
@@ -103,6 +103,7 @@ document.addEventListener("DOMContentLoaded", function () {
   if (document.getElementById("myModal")) {
     showSlides(slideIndex);
   }
+
   const quoteForm = document.getElementById("quoteForm");
   const quoteResponse = document.getElementById("quoteResponse");
 
@@ -110,7 +111,6 @@ document.addEventListener("DOMContentLoaded", function () {
     quoteForm.addEventListener("submit", function (e) {
       e.preventDefault();
 
-      
       const name = document.getElementById("qname").value.trim();
       const email = document.getElementById("qemail").value.trim();
       const phone = document.getElementById("qphone").value.trim();
@@ -119,9 +119,35 @@ document.addEventListener("DOMContentLoaded", function () {
       const distance = parseFloat(document.getElementById("distance").value.trim()) || 0;
       const cargoType = document.getElementById("cargoType").value;
 
-      
-      const baseRate = 100;       
-      const ratePerKm = 10;       
+
+      if (!name || !email || !phone || !pickup || !dropoff || distance <= 0) {
+        quoteResponse.innerHTML = `
+          <div class="quote-summary error">
+            <h3>Form Error</h3>
+            <p>Please fill in all fields correctly before submitting.</p>
+          </div>
+        `;
+        quoteResponse.style.display = "block";
+        quoteResponse.scrollIntoView({ behavior: "smooth" });
+        return;
+      }
+
+      const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      if (!emailPattern.test(email)) {
+        quoteResponse.innerHTML = `
+          <div class="quote-summary error">
+            <h3>Invalid Email</h3>
+            <p>Please enter a valid email address.</p>
+          </div>
+        `;
+        quoteResponse.style.display = "block";
+        quoteResponse.scrollIntoView({ behavior: "smooth" });
+        return;
+      }
+
+
+      const baseRate = 100;
+      const ratePerKm = 10;
       const cargoMultiplier = {
         general: 1,
         fragile: 1.2,
@@ -130,6 +156,7 @@ document.addEventListener("DOMContentLoaded", function () {
       };
 
       const estimatedPrice = (baseRate + (distance * ratePerKm)) * (cargoMultiplier[cargoType] || 1);
+
       const messageHTML = `
         <div class="quote-summary success">
           <h3>Quotation Summary</h3>
@@ -144,6 +171,7 @@ document.addEventListener("DOMContentLoaded", function () {
           <p class="thank-you">Thank you for requesting a quote. Our team will contact you shortly!</p>
         </div>
       `;
+
       quoteResponse.innerHTML = messageHTML;
       quoteResponse.style.display = "block";
       quoteResponse.scrollIntoView({ behavior: "smooth" });
@@ -152,3 +180,4 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
 });
+
