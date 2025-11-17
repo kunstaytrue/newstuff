@@ -103,3 +103,52 @@ document.addEventListener("DOMContentLoaded", function () {
   if (document.getElementById("myModal")) {
     showSlides(slideIndex);
   }
+  const quoteForm = document.getElementById("quoteForm");
+  const quoteResponse = document.getElementById("quoteResponse");
+
+  if (quoteForm) {
+    quoteForm.addEventListener("submit", function (e) {
+      e.preventDefault();
+
+      
+      const name = document.getElementById("qname").value.trim();
+      const email = document.getElementById("qemail").value.trim();
+      const phone = document.getElementById("qphone").value.trim();
+      const pickup = document.getElementById("pickup").value.trim();
+      const dropoff = document.getElementById("dropoff").value.trim();
+      const distance = parseFloat(document.getElementById("distance").value.trim()) || 0;
+      const cargoType = document.getElementById("cargoType").value;
+
+      
+      const baseRate = 100;       
+      const ratePerKm = 10;       
+      const cargoMultiplier = {
+        general: 1,
+        fragile: 1.2,
+        heavy: 1.4,
+        perishable: 1.3
+      };
+
+      const estimatedPrice = (baseRate + (distance * ratePerKm)) * (cargoMultiplier[cargoType] || 1);
+      const messageHTML = `
+        <div class="quote-summary success">
+          <h3>Quotation Summary</h3>
+          <p><strong>Name:</strong> ${name}</p>
+          <p><strong>Email:</strong> ${email}</p>
+          <p><strong>Phone:</strong> ${phone}</p>
+          <p><strong>Pick-up:</strong> ${pickup}</p>
+          <p><strong>Drop-off:</strong> ${dropoff}</p>
+          <p><strong>Distance:</strong> ${distance} km</p>
+          <p><strong>Cargo Type:</strong> ${cargoType.charAt(0).toUpperCase() + cargoType.slice(1)}</p>
+          <p><strong>Estimated Quote:</strong> R${estimatedPrice.toFixed(2)}</p>
+          <p class="thank-you">Thank you for requesting a quote. Our team will contact you shortly!</p>
+        </div>
+      `;
+      quoteResponse.innerHTML = messageHTML;
+      quoteResponse.style.display = "block";
+      quoteResponse.scrollIntoView({ behavior: "smooth" });
+      quoteForm.reset();
+    });
+  }
+
+});
