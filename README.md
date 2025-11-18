@@ -211,9 +211,183 @@ freeCodeCamp, 2024. CSS Flexbox – A Complete Guide. [online] Available at: htt
 freeCodeCamp, 2024. CSS Color Values Explained. [online] Available at: https://www.freecodecamp.org/news/css-colors-rgb-hsl-hex/
  [Accessed 19 September 2025].
  
+Part 3: Notable Changes 
+1. Visual and User Interface Enhancements
+1.1 Services Page
 
+Several interface improvements were implemented on the Services page.
+Firstly, interactive accordions were added using JavaScript and CSS to present information in a more organised and space-efficient manner. When a user clicks on a service category, the section expands to reveal detailed information.
+Secondly, a search functionality was introduced to allow users to quickly filter services according to keywords, thereby improving navigation and accessibility.
 
+1.2 Request a Quote Page
 
+A “Go to Gallery” button was added to provide direct access to the Gallery page.
+The Gallery itself was upgraded using a Lightbox system, enabling images to zoom slightly on hover and expand into a full-screen viewer when selected. Users can navigate through the gallery using image controls, creating a more interactive viewing experience.
+
+1.3 Contact Page
+
+The interactive map embedded within the Contact page was reduced in height to improve visual balance.
+Additionally, the website colour palette was adjusted to incorporate more green tones, which enhances visual consistency and aligns better with the brand identity.
+
+1.4 About Us Page
+
+Accordions and modal components were added to the About Us page to increase interactivity. Smooth animations were also integrated to create a more dynamic user experience.
+
+2. Functional and Technical Enhancements
+2.1 JavaScript and DOM Manipulation
+
+A number of JavaScript improvements were made across the website.
+Form validation was implemented to ensure that users provide correct and complete information before submitting forms.
+All forms were successfully connected to EmailJS, allowing them to send user input directly to an external email service.
+Additional JavaScript features implemented across various pages include:
+
+Accordions
+
+Modals
+
+Real-time search filtering
+
+Lightbox gallery functionality
+
+Improved event handling and interactive elements
+
+DOM manipulation techniques were used throughout the site to create dynamic content and improve user engagement.
+
+3. SEO Enhancements
+3.1 On-Page SEO
+
+Each page was updated with suitable meta descriptions, titles, and keywords to improve visibility on search engines. This includes page-specific metadata such as descriptions related to MacDylan Holdings.
+Internal structure was improved through consistent use of semantic HTML and accessibility attributes.
+
+3.2 Off-Page SEO
+
+To demonstrate off-page optimisation, backlinks and placeholder social media links were included.
+Even though the company currently does not operate social media accounts, these additions were made to illustrate capability and knowledge of off-page SEO techniques.
+
+3.3 Technical SEO
+
+Two important technical SEO files were added:
+
+robots.txt, used to guide search engine crawlers on which pages to index or avoid.
+
+sitemap.xml, which provides a complete map of the site’s structure for better indexing and search engine comprehension.
+
+These additions improve the website’s overall discoverability and search engine performance.
+
+4. Summary
+
+The work completed resulted in substantial improvements to the website’s interface, functionality, and search engine optimisation.
+Through the addition of interactive components, enhanced JavaScript logic, comprehensive SEO structures, and crawler guidance files, the website now demonstrates improved usability, technical depth, and professional quality.
+
+References:
+
+W3Schools. (2024). JavaScript Form Validation.
+
+Available at: https://www.w3schools.com/js/js_validation.asp
+
+(Accessed: 29 October 2025).
+
+W3Schools. (2024). CSS Flexbox Tutorial.
+
+Available at: https://www.w3schools.com/css/css3_flexbox.asp
+
+(Accessed: 17 November 2025).
+
+W3Schools. (2024). HTML Forms.
+
+Available at: https://www.w3schools.com/html/html_forms.asp
+
+(Accessed: 14 October 2025).
+
+Mozilla Developer Network (MDN). (2024). Using the Fetch API.
+
+Available at: https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
+
+(Accessed: 22 September 2025).
+
+Mozilla Developer Network (MDN). (2024). CSS Layout Techniques.
+
+Available at: https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout
+
+(Accessed: 7 November 2025).
+
+Mozilla Developer Network (MDN). (2024). Accessible Rich Internet Applications (ARIA).
+
+Available at: https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA
+
+(Accessed: 13 October 2025).
+
+FreeCodeCamp. (2024). How to Build Responsive Web Pages.
+
+Available at: https://www.freecodecamp.org/news/how-to-build-responsive-web-pages/
+
+(Accessed: 4 November 2025).
+
+FreeCodeCamp. (2024). JavaScript Event Listeners Explained.
+
+Available at: https://www.freecodecamp.org/news/javascript-event-listeners/
+
+(Accessed: 9 October 2025).
+
+EmailJS Documentation. (2024). Sending Email from JavaScript.
+
+Available at: https://www.emailjs.com/docs/
+
+(Accessed: 2 November 2025).
+
+EmailJS Documentation. (2024). Templates and Services.
+
+Available at: https://www.emailjs.com/docs/examples/
+
+(Accessed: 15 October 2025).
+
+Google Developers. (2024). Search Engine Optimization (SEO) Starter Guide.
+
+Available at: https://developers.google.com/search/docs/fundamentals/seo-starter-guide
+
+(Accessed: 11 November 2025).
+
+Google Developers. (2024). Sitemaps Overview.
+
+Available at: https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview
+
+(Accessed: 28 October 2025).
+
+Google Developers. (2024). Robots.txt Specifications.
+
+Available at: https://developers.google.com/search/docs/crawling-indexing/robots/robots_txt
+
+(Accessed: 23 September 2025).
+
+CSS-Tricks. (2024). Creating Accessible Modals.
+
+Available at: https://css-tricks.com/accessible-modals/
+
+(Accessed: 31 October 2025).
+
+CSS-Tricks. (2024). Crafting Accordions with HTML, CSS, and JavaScript.
+
+Available at: https://css-tricks.com/how-to-create-an-accordion/
+
+(Accessed: 16 November 2025).
+
+Stack Overflow. (2024). Best Practices for Handling Form Submissions in JavaScript.
+
+Available at: https://stackoverflow.com/questions/
+
+(Accessed: 5 October 2025).
+
+GeeksforGeeks. (2024). JavaScript DOM Manipulation Techniques.
+
+Available at: https://www.geeksforgeeks.org/dom-document-object-model/
+
+(Accessed: 12 November 2025).
+
+TutorialsPoint. (2024). HTML5 Semantic Elements.
+
+Available at: https://www.tutorialspoint.com/html5/html5_semantic_elements.htm
+
+(Accessed: 27 October 2025).
  
 
  

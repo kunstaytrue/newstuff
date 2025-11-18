@@ -1,0 +1,16 @@
+# robots.txt for MacDylan Holdings
+# NOTE: replace https://kunstaytrue.github.io/newstuff/ with your actual domain when available
+
+User-agent: *
+Allow: /
+Disallow: /img/private/
+# Prevent indexing of dynamic JS/CSS directories to conserve crawl budget (optional)
+Disallow: /javascript/
+Disallow: /css/
+
+Sitemap: https://kunstaytrue.github.io/newstuff/sitemap.xml
+
+# Block some well-known scrapers (adjust as you wish)
+User-agent: AhrefsBot
+User-agent: SEMrushBot
+Disallow: /
