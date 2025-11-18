@@ -234,6 +234,7 @@ Additionally, the website colour palette was adjusted to incorporate more green 
 Accordions and modal components were added to the About Us page to increase interactivity. Smooth animations were also integrated to create a more dynamic user experience.
 
 2. Functional and Technical Enhancements
+
 2.1 JavaScript and DOM Manipulation
 
 A number of JavaScript improvements were made across the website.
@@ -254,6 +255,7 @@ Improved event handling and interactive elements
 DOM manipulation techniques were used throughout the site to create dynamic content and improve user engagement.
 
 3. SEO Enhancements
+
 3.1 On-Page SEO
 
 Each page was updated with suitable meta descriptions, titles, and keywords to improve visibility on search engines. This includes page-specific metadata such as descriptions related to MacDylan Holdings.
