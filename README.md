@@ -281,6 +281,10 @@ These additions improve the website’s overall discoverability and search engin
 The work completed resulted in substantial improvements to the website’s interface, functionality, and search engine optimisation.
 Through the addition of interactive components, enhanced JavaScript logic, comprehensive SEO structures, and crawler guidance files, the website now demonstrates improved usability, technical depth, and professional quality.
 
+5. Dynamic Additioms
+
+I also made comprehensive CSS and JavaScript based animations across each and every page such as fade-in, fade-in left, fade-in left visible, and so on. I also made other animations changes such as hovering, movement. These animations contribute to a smoother, more dynamic presentation of content as a user interacts with or scrolls through the page. Furthermore, the hover effects were introduced to enhance visual feedback while smooth card animations were applied to different cards to strengthen aesthetic consistency and overall responsiveness.
+
 References:
 
 W3Schools. (2024). JavaScript Form Validation.
