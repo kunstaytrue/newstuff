@@ -285,6 +285,9 @@ Through the addition of interactive components, enhanced JavaScript logic, compr
 
 I also made comprehensive CSS and JavaScript based animations across each and every page such as fade-in, fade-in left, fade-in left visible, and so on. I also made other animations changes such as hovering, movement. These animations contribute to a smoother, more dynamic presentation of content as a user interacts with or scrolls through the page. Furthermore, the hover effects were introduced to enhance visual feedback while smooth card animations were applied to different cards to strengthen aesthetic consistency and overall responsiveness.
 
+
+The email.js sends the email to the company not to the user because it is more of  a logistics company it's the user's requesting quote so we get the user's information and then we generate a more accurate quote a quote that's more accurate than the one on the website based on different things that may be that may need to be considered before making the final quotation so the email sent to the company the email sent to my side instead of it going to the user so i get the user's information and then i get to return the quotation to the user using the email that they have sent on the website also two out of the three forms have email.js implemented because email.js only allows for two accounts two different form accounts to work and also for same reason it's not allowing for an auto  response so those are the two main reasons why i have made everything go this way if that makes sense 
+
 References:
 
 W3Schools. (2024). JavaScript Form Validation.
